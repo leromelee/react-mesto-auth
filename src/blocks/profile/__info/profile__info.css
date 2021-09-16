@@ -1,0 +1,18 @@
+.profile__info {
+    display: grid;
+    grid-template-areas: 'name edit-button' 'disc disc';
+    gap: 16px 18px;
+    margin-left: 30px;
+}
+
+@media screen and (max-width: 970px) {
+    .profile__info {
+        max-width: 100%;
+        justify-content: center;
+        gap: 14px 10px;
+        margin-top: 23px;
+        margin-bottom: 36px;
+        margin-left: 0;
+        text-align: center;
+    }
+}

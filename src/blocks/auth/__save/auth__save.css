@@ -1,0 +1,14 @@
+.auth__save{
+    height: 50px;
+    margin-top: 216px;
+    background: #FFFFFF;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: all 0.2s ease-out;
+    border: none;
+    font-family: Inter;
+}
+
+.auth__save:hover {
+    opacity: 0.85;
+}

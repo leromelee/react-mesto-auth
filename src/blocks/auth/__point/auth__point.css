@@ -1,0 +1,17 @@
+.auth__point{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #FFFFFF;
+    align-self: center;
+    margin-top: 15px;
+    text-decoration: none;
+    transition: all 0.2s ease-out;
+    font-family: Inter;
+}
+
+.auth__point:hover{
+    opacity: 0.6;
+}

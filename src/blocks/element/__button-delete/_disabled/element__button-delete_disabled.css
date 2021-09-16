@@ -1,0 +1,4 @@
+.element__button-delete-disabled {
+    display: none;
+    visibility: hidden;
+}

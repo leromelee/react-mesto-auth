@@ -1,0 +1,17 @@
+.element__button {
+    border-style: none;
+    background-image: url('../../../images/like_disable.svg');
+    width: 22px;
+    flex-shrink: 0;
+    flex-basis: 22px;
+    object-fit: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+
+.element__button:hover {
+    opacity: 50%;
+    cursor: pointer;
+    transition: 0.3s;
+}

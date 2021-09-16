@@ -1,0 +1,26 @@
+.card {
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 20px 17px;
+    margin: 0;
+    padding-top: 50px;
+    padding-bottom: 66px;
+    padding-left: 0;
+}
+
+@media screen and (max-width: 620px) {
+    .card {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(auto-fit, 1fr);
+        padding-top: 36px;
+        padding-bottom: 48px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .card {
+        grid-template-columns: 1fr;
+    }
+}
